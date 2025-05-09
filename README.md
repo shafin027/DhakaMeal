@@ -18,12 +18,6 @@ Accept and manage assigned deliveries.
 Update delivery statuses (e.g., picked up, out for delivery, delivered).
 
 
-Admin & Scalability:
-Basic structure for future admin panel integration.
-Supports expansion for multiple restaurants and delivery personnel.
-
-
-
 Technologies Used
 
 Backend: PHP with PDO for database interactions.

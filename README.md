@@ -1,4 +1,4 @@
-#DhakaMeal#
+*DhakaMeal*
 A food delivery web application built with PHP, MySQL, and Tailwind CSS.
 Features
 

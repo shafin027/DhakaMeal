@@ -1,54 +1,89 @@
-*DhakaMeal*
+# 🍔 DhakaMeal
 
-A food delivery web application built with PHP, MySQL, and Tailwind CSS.
-Features
+![PHP](https://img.shields.io/badge/Backend-PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/Database-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Styling-Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 
-User authentication for customers, delivery personnel, and restaurants.
-Order management with cart, order history, and review system.
-Restaurant stock management and order acceptance.
-Profile management with image upload and address updates.
-Responsive design for desktop and mobile.
+> **Overview:** DhakaMeal is a comprehensive food delivery web application connecting hungry customers with local restaurants and delivery personnel. It features a complete ecosystem with distinct dashboards for managing orders, menus, and deliveries in real-time.
 
-Example Login Credentials
+---
 
-Customer: Email: customer@example.com, Password: password123
-Restaurant: Email: restaurant@example.com, Password: password123
-Delivery Person: Email: delivery@example.com, Password: password123(Note: These are example credentials. Update the database with your own users or reset passwords as needed.)
+## 📑 Table of Contents
 
-Installation
+* [✨ Key Features](#-key-features)
+* [👥 User Roles](#-user-roles)
+* [📸 App Screenshots](#-app-screenshots)
+* [🛠️ Tech Stack](#-tech-stack)
+* [🔐 Demo Credentials](#-demo-credentials)
+* [🚀 Installation & Setup](#-installation--setup)
 
-Clone the repository: git clone https://github.com/your-username/DhakaMeal.git
-Set up a MySQL database and update config/database.php with your credentials.
-Import the provided SQL schema (if available) to create tables.
-Start a local server (e.g., XAMPP, MAMP) and access via http://localhost/DhakaMeal.
+---
 
-Usage
+## ✨ Key Features
 
-Log in as a customer to order food, view cart, and manage profile.
-Log in as a restaurant to manage orders and update stock.
-Log in as a delivery person to view assigned orders.
-Navigate via the header menu to access profiles, dashboards, and other pages.
+* **🔐 Multi-Role Authentication:** Secure login system for Customers, Restaurants, and Delivery Riders.
+* **🛒 Dynamic Cart System:** Add items, view summaries, and checkout seamlessly.
+* **📦 Order Management:** Real-time tracking of order status (Pending → Cooking → On the Way → Delivered).
+* **🍽️ Restaurant Dashboard:** Manage food items, stock availability, and accept/reject incoming orders.
+* **🛵 Delivery Hub:** Riders can view assigned tasks and manage delivery routes.
+* **👤 Profile Management:** Users can update addresses, upload profile pictures, and manage security settings.
+* **📱 Responsive Design:** Fully optimized for Desktop, Tablet, and Mobile devices using Tailwind CSS.
 
-Technologies
+---
 
-Backend: PHP, MySQL
-Frontend: HTML, Tailwind CSS
-Other: JavaScript for dynamic features
+## 👥 User Roles
 
-Contributing
-Feel free to submit issues or pull requests. Please follow the existing code style.
-License
-MIT License (or specify your preferred license)
-Screenshots
-Consider adding screenshots to showcase the application:
+| Role | Responsibilities |
+| :--- | :--- |
+| **Customer** | Browse menus, add to cart, place orders, write reviews. |
+| **Restaurant** | Manage menu (CRUD), update stock, process orders. |
+| **Delivery Man** | View delivery details, update delivery status. |
 
-Home page with restaurant listings.
-Cart page with items and checkout.
-Profile page with editable fields and image upload.
-Restaurant dashboard with order management. To add, place images in a screenshots/ folder and link them like:
+---
 
-![Home Page](screenshots/homepage.png)
-![Delivery Person Dashboard](screenshots/Delivery Person Dashboard.png)
-![Restaurant Add Food Item](screenshots/Restaurant Add Food Item.png)
-![Restaurant Dashboard](screenshots/Restaurant Dashboard.png)
+## 📸 App Screenshots
 
+> *Note: These images showcase the live application interface.*
+
+| **Home Page** | **Restaurant Dashboard** |
+| :---: | :---: |
+| ![Home Page](screenshots/homepage.png) | ![Restaurant Dashboard](screenshots/Restaurant%20Dashboard.png) |
+| **Add Food Item** | **Delivery Dashboard** |
+| ![Add Food](screenshots/Restaurant%20Add%20Food%20Item.png) | ![Delivery](screenshots/Delivery%20Person%20Dashboard.png) |
+
+---
+
+## 🛠️ Tech Stack
+
+| Component | Technology | Description |
+| :--- | :--- | :--- |
+| **Backend** | `PHP (Native)` | Server-side logic and session management. |
+| **Database** | `MySQL` | Relational database for users, orders, and menus. |
+| **Frontend** | `HTML5`, `Tailwind CSS` | Modern, responsive UI structure and styling. |
+| **Scripting** | `JavaScript` | Dynamic interactions and AJAX requests. |
+
+---
+
+## 🔐 Demo Credentials
+
+You can use these pre-configured accounts to explore the different dashboards:
+
+| User Type | Email | Password |
+| :--- | :--- | :--- |
+| **Customer** | `customer@example.com` | `password123` |
+| **Restaurant** | `restaurant@example.com` | `password123` |
+| **Delivery** | `delivery@example.com` | `password123` |
+
+---
+
+## 🚀 Installation & Setup
+
+Follow these steps to run the project locally on your machine.
+
+### 1. Prerequisites
+Ensure you have a local server environment installed (e.g., **XAMPP**, **MAMP**, or **WAMP**).
+
+### 2. Clone the Repository
+```bash
+git clone [https://github.com/shafin027/DhakaMeal.git](https://github.com/shafin027/DhakaMeal.git)

@@ -134,6 +134,6 @@ This project uses MySQLi Prepared Statements (assumed in implementation) to prev
 
 <div align="center">
 
-EduMatrix | Developed by Shafin027
+**EduMatrix** | Developed by [Shafin027](https://github.com/shafin027)
 
 </div>

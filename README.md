@@ -85,5 +85,55 @@ Follow these steps to run the project locally on your machine.
 Ensure you have a local server environment installed (e.g., **XAMPP**, **MAMP**, or **WAMP**).
 
 ### 2. Clone the Repository
-```bash
+
 git clone [https://github.com/shafin027/DhakaMeal.git](https://github.com/shafin027/DhakaMeal.git)
+
+⚙️ Configuration
+Update the database connection settings in includes/db_connect.php:
+
+PHP
+
+<?php
+$host = 'localhost';
+$db   = 'edumatrix';
+$user = 'root';      // Default XAMPP username
+$pass = '';          // Default XAMPP password is empty
+
+$conn = new mysqli($host, $user, $pass, $db);
+
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+?>
+📂 File Structure
+Plaintext
+
+edumatrix/
+├── includes/
+│   ├── db_connect.php     # Database connection
+│   ├── header.php         # Navbar & CSS links
+│   └── footer.php         # Copyright & Scripts
+├── uploads/               # Stores course & category images
+├── programs.php           # Main page displaying categories
+├── category_courses.php   # Displays courses inside a category
+└── README.md              # Project documentation
+🚀 Getting Started
+Clone the Repository:
+
+Bash
+
+git clone [https://github.com/shafin027/EduMatriix.git](https://github.com/shafin027/EduMatriix.git)
+Move Files: Place the project folder inside your server's root directory (e.g., htdocs for XAMPP).
+
+Start Server: Launch Apache and MySQL via your control panel.
+
+Launch App: Visit http://localhost/edumatrix/programs.php in your browser.
+
+🛡️ Security Note
+This project uses MySQLi Prepared Statements (assumed in implementation) to prevent SQL injection. For a live production environment, ensure input validation is strictly enforced.
+
+<div align="center">
+
+EduMatrix | Developed by Shafin027
+
+</div>
